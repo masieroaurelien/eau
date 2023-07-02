@@ -9,6 +9,11 @@ result = []
 
 count = min
 
+if min.to_s != ARGV[0] || max.to_s != ARGV[1]
+  puts "error"
+  exit
+end
+
 while count < max
  result.push(count)
  count += 1
