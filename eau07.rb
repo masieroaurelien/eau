@@ -3,7 +3,7 @@
 chaine = ARGV[0]
 
 
-def majuscule_une_lettre_sur_deux(chaine)
+def majuscule_debut_mot(chaine)
   result = ""
 
   chaine.each_char do |caractere|
@@ -23,6 +23,6 @@ def majuscule_une_lettre_sur_deux(chaine)
   return result
 end
 
-resultat = majuscule_une_lettre_sur_deux(chaine)
+resultat = majuscule_debut_mot(chaine)
 
 puts resultat
