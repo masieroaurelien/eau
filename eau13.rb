@@ -1,5 +1,6 @@
 =begin
 Créez un programme qui trie une liste de nombres. Votre programme devra implémenter l’algorithme du tri par sélection.
+=end
 
 def my_select_sort(array)
   return array if array.empty? || array.length < 2
