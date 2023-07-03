@@ -5,6 +5,9 @@ cli = ARGV.sort
 min = cli[0].to_i
 max = cli[1].to_i
 
+if min == cli[0] && max == cli[1]
+  puts "error"
+end
 result = []
 
 count = min
